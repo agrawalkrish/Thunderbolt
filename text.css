@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+.container .heading {
+    width: 50%;
+    padding-bottom: 40px;
+
+}
+.container .heading h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid;
+}
+.container .heading h3 span{
+    font-weight: 100;
+    
+}
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.container .box .obj{
+    display: flex;
+    flex-direction: column;
+    width:32%;
+}
+.container .box .obj img{
+    width:100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+
+}
+.main-container {
+    
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.navbar {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    z-index: 100;
+}
+
+.main-logo {
+    width: 70px;
+}
+
+.main-logo img {
+    width: 100%;
+}
+
+.reslogo {
+    display: none;
+    width: 70px;
+}
+
+.reslogo img {
+    width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.navbar ul li a:hover, .navbar ul li .active {
+    color: #000;
+}
